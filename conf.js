@@ -39,7 +39,7 @@ jsproxy_config({
       hidden: true,
       lines: {
         'node-cfworker-2.etherdream.com': 2,
-        'az0.a18090.workers.dev':3,
+        'de0.a18090.workers.dev':3,
         // 免费版（低权重，分摊一些成本）
         // 每个账号每天 10 万次免费请求，但有频率限制
         'b.007.workers.dev': 1,
