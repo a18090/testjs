@@ -38,6 +38,7 @@ jsproxy_config({
       label: '',
       hidden: true,
       lines: {
+        'de0.a18090.workers.dev':2,
         'node-cfworker-2.etherdream.com': 1,
       }
     }
@@ -80,9 +81,6 @@ jsproxy_config({
   url_handler: {
     'https://www.baidu.com/img/baidu_resultlogo@2.png': {
       replace: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'
-    },
-    'https://www.pornhub.com/': {
-      redir: 'https://php.net/'
     },
     'http://haha.com/': {
       content: 'Hello World'
