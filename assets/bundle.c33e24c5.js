@@ -192,7 +192,7 @@ function(a) {
 		const o = a.substr(u),
 		i = p(o);
 		if (i) {
-			const e = o.match(/\/-(https?:\/\/.+)$/);
+			const e = o.match(/\/-----(https?:\/\/.+)$/);
 			if (e) return r + e[1];
 			if (c(i.protocol) && r + i.href === a) return
 		}
