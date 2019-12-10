@@ -186,13 +186,13 @@ function(a) {
 		"www.facebook.com": ["facebook", "fb", "f"],
 		"twitter.com": ["twitter", "tw", "t"]
 	},
-	_ = "https://www.google.com/search?q=%s";
+	_ = "https://ipv6.google.com/search?q=%s";
 	let q;
 	function E(a) {
 		const o = a.substr(u),
 		i = p(o);
 		if (i) {
-			const e = o.match(/\/-----(https?:\/\/.+)$/);
+			const e = o.match(/\/-(https?:\/\/.+)$/);
 			if (e) return r + e[1];
 			if (c(i.protocol) && r + i.href === a) return
 		}
